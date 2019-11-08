@@ -55,6 +55,7 @@ label good:
     menu:
         "Yes":
             m "Yes sir"
+            jump history1
 
         "No":
             m "No sir"
@@ -75,25 +76,17 @@ label bad:
         "No":
             m "No sir"
 
-
+label history1:
     hide principal adam
     with dissolve
+    play sound "bell.ogg"
+    pause 9.0
+    m "Guess that's the bell"
 
-    show soup unfocus at center
-    with moveinbottom
+    show classroom manti empty
+    with fade
 
-    show six unfocus at right 
-    with moveinright
+    m ""
 
-    show maikas unfocus at left
-    with moveinleft
-
-    hide soup unfocus
-    show soup at center
-    with zoomin
-
-    s "What're you doin here smigger"
-    m "What? I'm not even blu-"
-    s ""
 
 
