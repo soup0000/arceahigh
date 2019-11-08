@@ -72,6 +72,7 @@ label bad:
     menu:
         "Yes":
             m "Yes sir"
+			jump history1
 
         "No":
             m "No sir"
@@ -86,7 +87,22 @@ label history1:
     show classroom manti empty
     with fade
 
-    m ""
+    m "Huh"
+	m "Wonder where everyone is..."
+	
+	show soup unfocused at center
+	with moveincenter
+	
+	show maikas unfocused at left
+	with moveinleft
+	
+	show six unfocused at right
+	with moveinright
+	
+	m "..."
+	s "..."
+	m"..."
+	s"..."
 
 
 
